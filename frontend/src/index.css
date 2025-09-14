@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #2b2d42;
+    /* Dark Slate Blue */
+    --color-secondary: #8d99ae;
+    /* Cool Gray-Blue */
+    --color-light: #edf2f4;
+    /* Soft Off-White */
+    --color-accent: #ef233c;
+    /* Bright Red */
+    --color-danger: #d90429;
+    /* Deep Crimson */
+}
+
+/* 🌙 Dark Theme override */
+[data-theme="dark"] {
+    --color-primary: #edf2f4;
+    --color-secondary: #8d99ae;
+    --color-light: #2b2d42;
+    --color-accent: #ef233c;
+    --color-danger: #d90429;
+}
